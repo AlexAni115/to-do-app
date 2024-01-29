@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  color: rgb(7, 89, 27);
+}
+.main{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{ 
+      
+      outline: 2px solid rgb(8, 96, 1);
+      outline-width: thin;
+      width: 400px !important;
+      
+    
+}
+input:focus-visible{
+  outline: 2px solid rgb(7, 89, 27) !important;
+}
+.section{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+.tools{
+  display: flex;
+}
+.filter{
+  margin-right:50px ;
+  display: flex;
+  justify-content: flex-end;
+}
+.card{
+  margin: 50px;
+ 
+
+}
+.card-body {
+background-color: rgb(131, 211, 168);
+padding: 10px;
+}
+.button{
+  display: flex !important;
+  justify-content: end;
+  gap: 20px;
+}
